@@ -1,3 +1,6 @@
+# presentacion-tablaeau-revealJs
+
+
 <p align="center">
   <a href="https://revealjs.com">
   <img src="https://hakim-static.s3.amazonaws.com/reveal-js/logo/v1/reveal-black-text-sticker.png" alt="reveal.js" width="500">
@@ -48,3 +51,20 @@ Hakim's open source work is supported by <a href="https://github.com/sponsors/ha
 <div align="center">
   MIT licensed | Copyright © 2011-2023 Hakim El Hattab, https://hakim.se
 </div>
+
+## Requisitos
+- NodeJs 10.0.0 o superior
+## Instalación
+1. Clone the reveal.js repository
+```bash
+git clone https://github.com/hakimel/reveal.js.git
+```
+2. Move to the reveal.js folder and install dependencies
+```bash
+cd reveal.js && npm install
+```
+3. Serve the presentation and monitor source files for changes
+```bash
+npm start
+```
+4. Open http://localhost:8000 to view your presentation
